@@ -1,6 +1,7 @@
 // Pseudocode for the application
 // Get the current day and time and display in the header
-$("#currentDay").text(dayjs().format('ddd, DD MMM YYYY, h:mm:ss a'));
+dayjs.extend(window.dayjs_plugin_advancedFormat);
+$("#currentDay").text(dayjs().format('ddd, Do MMM YYYY, HH:mm'));
 
 // Create a time block for each hour of the day between 9am and 5pm
 

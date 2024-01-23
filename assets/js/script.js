@@ -1,24 +1,22 @@
 // Pseudocode for the application
-// 1. Get the current day and time
+// Get the current day and time and display in the header
+$("#currentDay").text(dayjs().format('dddd, DD MMMM YYYY'));
 
 
-// 2. Add the current day and time to the header
+// Create a time block for each hour of the day between 9am and 5pm
 
 
-// 3. Create a time block for each hour of the day between 9am and 5pm
+// Add the time block to the container
 
 
-// 4. Add the time block to the container
+// Add the event listener to the time block
 
 
-// 5. Add the event listener to the time block
+// Add the event listener to the save button
 
 
-// 6. Add the event listener to the save button
+// Add the event listener to the clear button
 
 
-// 7. Add the event listener to the clear button
-
-
-// 8. Save and load events for each time block
+// Save and load events for each time block
 

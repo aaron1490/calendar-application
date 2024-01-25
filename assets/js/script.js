@@ -22,7 +22,7 @@ for (let i = start; i <= end; i++) {
   console.log(timeBlocks);
 
   // Append the time block to the container
-  $(".container").append(`
+  $('.container').append(`
 <div class="row time-block">
     <div class="col-1 hour center">${timeBlocks}</div>
     <textarea class="col-10 description"></textarea>
@@ -31,7 +31,7 @@ for (let i = start; i <= end; i++) {
 `);
 }
 
-// Add the event listener to the time block
+// Add the event listener to the time block save button
 
 // Add the event listener to the save button
 

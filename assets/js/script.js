@@ -33,17 +33,24 @@ for (let i = start; i <= end; i++) {
   // Append the time block to the container
   $('.container').append(`
 <div class="row time-block">
-    <div class="col-1 hour center">${timeBlocks}</div>
-    <textarea class="col-10 description ${timeStatus}"></textarea>
-    <button class="col-1 saveBtn"><i class="fas fa-save"></i></button>
+    <div class="col-2 col-sm-1 hour center">${timeBlocks}</div>
+    <textarea class="col-8 col-sm-10 description ${timeStatus}"></textarea>
+    <button class="col-2 col-sm-1 saveBtn saveButton"><i class="fas fa-save"></i></button>
 </div>
 `);
 }
 
 // Add the event listener to the time block save button
+$('.saveButton').on('click', function() {
+    // Get the value of the textarea
+    var textValue = $(this).siblings('.description').val();
+    // Save the value to local storage or perform any other action
+    localStorage.setItem($(this).siblings('.hour').text(), textValue);
+});
 
-// Add the event listener to the save button
-
-// Add the event listener to the clear button
-
-// Save and load events for each time block
+// Load events from local storage
+for (let i = start; i <= end; i++) {
+    var timeBlocks = dayjs().hour(i).format("HA");
+    var textValue = localStorage.getItem(timeBlocks);
+    $(`.${whatHour(i)}`).val(textValue);
+}

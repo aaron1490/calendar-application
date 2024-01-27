@@ -29,6 +29,8 @@ for (let i = start; i <= end; i++) {
   var timeBlocks = dayjs().hour(i).format("HA");
   console.log(timeBlocks);
   var timeStatus = whatHour(i);
+  $(`.${timeStatus}`).val(textValue);
+
 
   // Append the time block to the container
   $(".container").append(`
@@ -45,7 +47,6 @@ $(".saveButton").on("click", function () {
   // Get the value of the textarea
   var textValue = $(this).siblings(".description").val();
 
-  console.log(textValue);
   // Save the value to local storage or perform any other action
   localStorage.setItem($(this).siblings(".hour").text(), textValue);
 });

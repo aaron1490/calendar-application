@@ -1,5 +1,60 @@
 # Third-Party APIs: Work Day Scheduler
 
+A full stack calendar app created using [Day.js](https://day.js.org/en/)
+
+## Description
+For this project, I have been tasked with creating a simple full stack calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+
+For more details, please see below [User Story](#user-story) and [Acceptance Criteria](#acceptance-criteria)
+
+## Technical Stack
+
+* HTML5
+* CSS
+* JavaScript
+
+* Frameworks
+  * [Bootstrap](https://getbootstrap.com/)
+
+* Libraries
+  * [jQuery](https://jquery.com/)
+  * [Day.js](https://day.js.org/)
+
+
+## Installation
+
+To install and edit this project, please clone the repository and make any necessary changes.
+
+The repository can be found at this [🔗link](https://github.com/aaron1490/calendar-application)
+
+## Usage
+
+To open and use this application, please open the app via the [🔗link](TO BE CONFIRMED)
+
+## Features
+
+Some noteable features include:
+* Displays the current day, date and time at the top of the calender when a user opens the planner.
+* Users have timeblocks for each hour of the day between 09:00 - 17:00, as the day progresses, timeblocks in the past will change to grey, the current timeblock will be red and timeblocks in the future are green.
+* Users can enter an event when they click a timeblock, these event's can be saved with the save button icon locally. These events are then kept in local storage and retrieved the next time the page is loaded.
+
+## Project Demo
+
+When op
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Your Task
 
 Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
@@ -34,54 +89,6 @@ The following animation demonstrates the application functionality:
 
 ![A user clicks on slots on the color-coded calendar and edits the events.](./assets/images/05-third-party-apis-homework-demo.gif)
 
-
-## Grading Requirements
-
-This homework is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses a date utility library to work with date and time
-
-### Deployment: 32%
-
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the homework instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
 
 ---
 © 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.

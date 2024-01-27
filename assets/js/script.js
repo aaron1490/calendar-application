@@ -44,6 +44,8 @@ for (let i = start; i <= end; i++) {
 $(".saveButton").on("click", function () {
   // Get the value of the textarea
   var textValue = $(this).siblings(".description").val();
+
+  console.log(textValue);
   // Save the value to local storage or perform any other action
   localStorage.setItem($(this).siblings(".hour").text(), textValue);
 });

@@ -9,9 +9,9 @@ For more details, please see below [User Story](#user-story) and [Acceptance Cri
 
 ## Links
 
-[Deployed Link 🔗](TO BE CONFIRMED)
+[🔗 Deployed Link](https://aaron1490.github.io/calendar-application/)
 
-[GitHub Repository 🔗](https://github.com/aaron1490/calendar-application)
+[🔗 GitHub Repository](https://github.com/aaron1490/calendar-application)
 
 ## Technical Stack
 
@@ -35,7 +35,7 @@ The repository can be found at this [🔗link](https://github.com/aaron1490/cale
 
 ## Usage
 
-To open and use this application, please open the app via the [🔗link](TO BE CONFIRMED)
+To open and use this application, please open the app via the [🔗link](https://aaron1490.github.io/calendar-application/)
 
 ## Features
 

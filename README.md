@@ -7,6 +7,12 @@ For this project, I have been tasked with creating a simple full stack calendar 
 
 For more details, please see below [User Story](#user-story) and [Acceptance Criteria](#acceptance-criteria)
 
+## Links
+
+[Deployed Link 🔗](TO BE CONFIRMED)
+
+[GitHub Repository 🔗](https://github.com/aaron1490/calendar-application)
+
 ## Technical Stack
 
 * HTML5
@@ -40,19 +46,15 @@ Some noteable features include:
 
 ## Project Demo
 
-When op
+When opened, the app should look like this:
+![page open demo](./assets/images/fullScreenDemo1.png)
 
+Times in the past will be grey, the current timeblock will be red and times in the future will be green.
 
+Enter certain meetings in for the hours in the calendar and press the save icon on the right. Like such:
+![saved entry demo](./assets/images/fullScreenDemo2.png)
 
-
-
-
-
-
-
-
-
-
+These entries are saved locally and upon page refresh, the input will still be displayed in the calendar time blocks.
 
 
 ## Your Task
